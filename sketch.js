@@ -9,7 +9,7 @@ let gen = 0;
 let texto;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth*0.8, windowHeight * 0.8);
   frameRate(30);
   
   button[0] = createButton('Play');
