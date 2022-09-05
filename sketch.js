@@ -13,7 +13,7 @@ function windowResized() {
 function draw() {
   background(0);
   stroke(255);
-  strokeWeight(4);
+  strokeWeight(20);
   
   if (frameCount % speed == 0) {
     xpos += random(-factor,factor);
