@@ -1,4 +1,4 @@
-let Nx = 50;
+let Nx = 25;
 let Ny = Nx;
 let dx; let dy;
 let cells = [];
