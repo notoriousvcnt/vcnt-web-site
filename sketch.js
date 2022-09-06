@@ -1,4 +1,4 @@
-let Nx = 25;
+let Nx = 30;
 let Ny = Nx;
 let dx; let dy;
 let cells = [];
@@ -9,7 +9,7 @@ let gen = 0;
 let texto;
 
 function setup() {
-  createCanvas(windowWidth*0.8, windowHeight * 0.8);
+  createCanvas(1000,1000);
   frameRate(30);
   
   button[0] = createButton('Play');
